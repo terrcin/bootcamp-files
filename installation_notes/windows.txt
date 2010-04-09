@@ -1,0 +1,16 @@
+First install Ruby 1.9.1 from here:
+
+http://rubyinstaller.org/
+
+From the Rails 3.0 Beta 2 release notes:  (http://weblog.rubyonrails.org/2010/4/1/rails-3-0-second-beta-release)
+
+run the following from the command line
+
+gem update --system
+gem install rails --prerelease
+gem install sqlite3-ruby
+
+copy this dll to your ruby/bin folder:
+http://www.sqlite.org/sqlitedll-3_6_22.zip
+
+There are some additional files available from an harddrive such as code editors

@@ -1,0 +1,16 @@
+If you have not installed the XCode Developer Tools you'll need to do this first, we have this on DVD if you need it.s
+
+Then:
+
+Install the Ruby Version Manager using option (3) Installing from a gem:
+http://rvm.beginrescueend.com/rvm/install/
+
+then run from the command line
+
+rvm install 1.9.2-head
+rvm use 1.9.2-head
+
+gem update --system
+gem install rails --prerelease
+gem install sqlite3-ruby
+
